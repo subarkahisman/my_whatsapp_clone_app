@@ -28,3 +28,28 @@
 	height: 20px;
 	margin: 5px 13px;
 	opacity: 0.4;
+}
+
+body {
+	display: flex;
+	overflow: hidden;
+}
+
+.sidebar {
+	flex: 5.17;
+}
+
+.header {
+	background-color: #ededed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 15px;
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+.message-container {
+	flex: 12;
+}
