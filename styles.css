@@ -14,7 +14,7 @@
 	overflow: hidden;
 }
 
-.avatar img {
+.avatar img, .chat-avatar img {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -77,6 +77,47 @@ body {
 	margin-left: 35px;
 }
 
+.chat-avatar {
+	position: relative;
+	height: 50px;
+	min-width: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+	flex: 1;
+}
+
+.sidebar-chats {
+	height: calc(100vh - 115px);
+	overflow-y: scroll;
+}
+
+.sidebar-chat {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 10px 12px;
+	width: 100%;
+}
+
+.chat-info{
+	margin-left: 15px;
+	flex: 10;
+}
+
+.chat-info p {
+	font-size: 13px;
+	line-height: 20px;
+	color: gray;
+}
+
+.time {
+	flex: 1;
+}
+
+
+
+
 .message-container {
 	flex: 12;
 }
@@ -88,5 +129,15 @@ body {
 
 .message-header-content {
 	margin-left: 13px;
+}
+
+h4 {
+	font-weight: 400;
+}
+
+
+.message-header-content p {
+	font-size: 13px;
+	color: gray;
 }
 
