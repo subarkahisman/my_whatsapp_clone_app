@@ -6,6 +6,11 @@
 	font-family: 'Roboto', sans-serif;
 }
 
+::-webkit-scrollbar {
+	width: 6px;
+}
+
+
 .avatar {
 	position: relative;
 	width: 40px;
@@ -100,6 +105,25 @@ body {
 	width: 100%;
 }
 
+.sidebar-chat:hover {
+	background-color: #f5f5f5;
+}
+
+.sidebar-chat:nth-child(2) {
+	background-color: #ebebeb;
+}
+
+.sidebar-chat::before {
+	content: '';
+	position: absolute;
+	width: 80%;
+	bottom: 0;
+	left: 80px;
+	border-bottom: 1px solid #999;
+	opacity: 0.2;
+}
+
+
 .chat-info{
 	margin-left: 15px;
 	flex: 10;
@@ -114,6 +138,14 @@ body {
 .time {
 	flex: 1;
 }
+
+.time p {
+	white-space: nowarp;
+	font-size: 13px;
+	margin-top: -16px;
+	color: gray;
+}
+
 
 
 
