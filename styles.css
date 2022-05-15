@@ -185,3 +185,60 @@ h4 {
 	color: gray;
 }
 
+.message-content {
+	background-image: url(background.png);
+	background-position: center;
+	height: calc(100vh - 120px);
+	padding: 20px 80px;
+	overflow-y: scroll;
+}
+
+.chat-message {
+	font-size: 14px;
+	padding: 8px 10px;
+	width: fit-content;
+	border-radius: 8px;
+	background-color: white;
+	margin-bottom: 30px;
+}
+
+.chat-sent {
+	margin-left: auto;
+	background-color: #dcf8c6;
+}
+
+.chat-timestamp {
+	margin-left: 10px;
+	font-size: 10px;
+	color: grey;
+}
+
+/* message footer */
+.message-footer {
+	display: flex;
+	align-items: center;
+	padding: 5px 10px;
+	background-color: #f0f0f0;
+}
+
+.message-footer img {
+	flex: 1;
+	width: 22px;
+	height: 22px;
+	opacity: 0.4;
+}
+
+.message-footer input {
+	flex: 20;
+	margin: 5px 10px;
+	padding: 12px 15px;
+	outline: none;
+	border: none;
+	border-radius: 20px;
+	font-size: 15px;
+	
+}
+
+
+
+
